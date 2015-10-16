@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LeoClub</title>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="css/index.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<style>
+	
+  .dropdown:hover .dropdown-menu {
+display: block;
+}
+
+
+</style>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<img src="leo.png" height="40" width="40" style="float:left;"/><a class="navbar-brand " href="index.html">Leoclub of CEG</a>
+			</div>
+		<div>
+		<ul class="nav navbar-nav navbar-right collapse-navbar-collapse" id="mynav">
+			<li ><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+			<li ><a href="aboutus.html"><span class="glyphicon glyphicon-eye-open"></span> About us</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-tasks"> Events<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="events/upsc.html">UPSC classes</a></li>
+					<li><a href="events/wasteintomoney.html">Waste into Money</a></li>
+					<li><a href="events/vidiyal.html">Vidiyal</a></li>
+					<li><a href="events/thulir.html">Thulir</a></li>
+					<li><a href="events/leoutsav.html">Leo Utsav</a></li>
+					<li><a href="events/blooddonation.html">Blood Donation</a></li>
+				</ul>
+			</li>
+			<li class="active"><a href="#"><span class="glyphicon glyphicon-user"> Our Team</a></li> 
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"> Gallery<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				
+					<li class="dropdown-submenu">
+					<a class="test" tabindex="-1" href="#">2014-2015<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="gallery/2014-2015/utsav14/index.html">LeoUtsav'14</a></li>
+						<li><a tabindex="-1" href="gallery/2014-2015/vidiyal14/index.html">vidiyal'14</a></li>
+      
+					</ul>
+					<li class="divider"></li>
+					<li class="dropdown-submenu">
+					<a class="test" tabindex="-1" href="#">2015-2016<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a tabindex="-1" href="gallery/2015-2016/installation/index.html">Installation</a></li>
+						<li><a tabindex="-1" href="gallery/2015-2016/othmer/index.html">Othmer</a></li>
+						<li><a tabindex="-1" href="gallery/2015-2016/terryfox/index.html">TerryFox</a></li>
+						<li><a tabindex="-1" href="gallery/2015-2016/thulir/index.html">Thulir</a></li>
+						<li><a tabindex="-1" href="gallery/2015-2016/utsav/index.html">Utsav</a></li>
+      
+					</ul>
+				</ul>
+			</li>
+			
+			<li><a href="contacts/index.html"><span class="glyphicon glyphicon-send"> Contacts</a></li>
+		</ul>
+		</div>
+		</div>
+	</nav>
+	<div class="container" id="inner">
+		<div class="row">
+                  <div class="col-md-12">
+                        <!-- Nav tabs --><div class="card">
+                        <ul class="nav nav-pills nav-justified" role="tablist" id="myTab">
+                            <li role="presentation" class="active"><a href="#ad" aria-controls="ad" role="tab" data-toggle="tab">Administration</a></li>
+                            <li role="presentation"><a href="#bd" aria-controls="bd" role="tab" data-toggle="tab">Board of Directors(2015-2016)</a></li>
+                            <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" role="tab" data-toggle="dropdown">Board Members(2015-2016) <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#th" aria-controls="th" role="tab" data-toggle="tab">Thulir</a></li>
+									<li><a href="#vi" aria-controls="vi" role="tab" data-toggle="tab">Vidiyal</a></li>
+									<li><a href="#wm" aria-controls="wm" role="tab" data-toggle="tab">Waste into Money</a></li> 
+									<li><a href="#bl" aria-controls="bl" role="tab" data-toggle="tab">Blood Donation</a></li> 
+									<li><a href="#lu" aria-controls="lu" role="tab" data-toggle="tab">LEO Utsav</a></li> 
+									<li><a href="#sa" aria-controls="sa" role="tab" data-toggle="tab">Social Awarness</a></li> 
+									<li><a href="#ce" aria-controls="ce" role="tab" data-toggle="tab">Celebrations</a></li> 
+									<li><a href="#uc" aria-controls="uc" role="tab" data-toggle="tab">UPSC classes</a></li> 
+									<li><a href="#we" aria-controls="we" role="tab" data-toggle="tab">Web</a></li> 
+									<li><a href="#ph" aria-controls="ph" role="tab" data-toggle="tab">Photography</a></li> 
+								</ul>
+							</li>                                    
+						</ul>
+									
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+							<br>
+							<!-- Main Panel -->
+							<div role="tabpanel" class="tab-pane active fade in" id="ad">
+								<div class="row">
+								<div class="col-md-4 col-sd-4"></div>
+								<div class="col-md-4 col-sd-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">President</div>
+									<div class="panel-body">
+										<div class="row">
+										<div class="col-md-3 col-sd-3"></div>
+										<div class="col-md-3 col-sd-3"><img class="img-circle" src="pratha/Vasanth.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Vasanth S D<br>BE CIVIL(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>	
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Vice President</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/vijayabharathi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Vijayabharathi J<br>BE MECH(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Vice President</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/jaya.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Jayalakshmi V<br>BE CIVIL(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Secretary</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/anjali.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Anjali Su Ga<br>BE CIVIL(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Joint Secretary</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/rajesh.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Rajesh S<br>BE CIVIL(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Treasurer</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/kathir.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Kathir L<br>BE IT(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Joint Treasurer</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/kavitha.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Kavitha D<br>BE GEO(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+							</div>
+							<!-- Board of Directors -->
+							<div role="tabpanel" class="tab-pane fade" id="bd">
+								<br>
+								<div class="row">
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">UPSC Classes</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/vigneshwar.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Vigneshwar V<br>BE MECH(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Surya Nagar Projects</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/satheesh.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Satheesh M<br>BE CIVIL(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Suriya Nagar Projects</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/jayanthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Jayanthi J<br>BTech Printing(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Communication</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/naveen.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Naveen L<br>BE MECH(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Communication</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Raj Prabhu<br>BE CIVIL(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Logistics</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/santhosh.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Santhosh Sivam E<br>BE CIVIL(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Design</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Pethan Raj S<br>BE MECH(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Design</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/rajeshprint.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Rajesh M<br>BTech Printing(4th Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							<!-- Board Members -->
+							<!-- Thulir -->
+						    <div role="tabpanel" class="tab-pane fade" id="th">
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+							</div>
+							<!-- Vidiyal -->
+							<div role="tabpanel" class="tab-pane fade" id="vi">
+								<div class="row">
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-2"></div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Treasurer</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/sonia.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Sonia Bernath S<br>BE AGRI(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							<!-- Waste into money -->
+							<div role="tabpanel" class="tab-pane fade" id="wm">
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Treasurer</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							<!-- Blood donation -->
+							<div role="tabpanel" class="tab-pane fade" id="bl">
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							<!-- Leo Utsav -->
+							<div role="tabpanel" class="tab-pane fade" id="lu">
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							<!-- Social Awarness -->
+							<div role="tabpanel" class="tab-pane fade" id="sa">
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							<!-- Celebrations -->
+							<div role="tabpanel" class="tab-pane fade" id="ce">
+								<div class="row">
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>
+								<div class="row">
+								<div class="col-md-2"></div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-2"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							
+							<!-- Upsc classes -->
+							<div role="tabpanel" class="tab-pane fade" id="uc">
+								<div class="row">
+								<div class="col-md-2"></div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/prathab.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Prathab K<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+									<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/karthi.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">Karthick B<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							<!-- Web -->
+							<div role="tabpanel" class="tab-pane fade" id="we">
+								<div class="row">
+								<div class="col-md-4"></div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+										<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/giri.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Giritharan T<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+							<!-- Photography -->
+							<div role="tabpanel" class="tab-pane fade" id="ph">
+								<div class="row">
+								<div class="col-md-4"></div>
+								<div class="col-md-4">
+									<div class="panel panel-info">
+									<div class="panel-heading" style="text-align:center;">Chairman</div>
+									<div class="panel-body">
+										<div class="row">
+										<div class="col-md-3"></div>
+										<div class="col-md-3"><img class="img-circle" src="pratha/dhanush.jpg" width="150" height="250"/></div>
+										</div>
+										<div class="row">
+										<h5 style="line-height:2em;text-align:center;">LEO Dhanush S<br>BE CSE(3rd Yr)</h5>
+										</div>
+									</div>
+									</div>
+								</div>
+								</div>			
+							</div>
+                        </div>
+                    </div>
+              </div>
+		</div>
+
+	</div>
+<br>
+<footer class="navbar-stativc-bottom" style="margin-bottom:0px;">
+	<div class="text-left"><h5>&copy;&nbsp;2015&nbsp;LeoClub,All rights reserved.</h5></div>
+</footer>
+</body>
+</html>

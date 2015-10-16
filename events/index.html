@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LeoClub</title>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles/main.css"/>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<script>
+      $('[data-toggle=tab]').click(function(){
+  if ($(this).parent().hasClass('active')){
+	$($(this).attr("href")).toggleClass('active');
+  }
+})
+</script>
+<style>
+	
+	.carousel
+	{
+		height:400px;
+		width:80%;
+	}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+	  height:400px;
+      margin: auto;
+  }
+  .navbar-brand
+  {
+	padding-top:11px;
+	margin-left:-11px;
+	}
+</style>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<img src="leo.png" height="40" width="40" style="float:left;"/><a class="navbar-brand " href="#">Leoclub of CEG</a>
+			</div>
+		<div>
+		<ul class="nav navbar-nav navbar-right collapse-navbar-collapse" id="mynav">
+			<li ><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+			<li ><a href="#"><span class="glyphicon glyphicon-eye-open"></span> About us</a></li>
+			<li class="active" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-tasks"> Events<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">UPSC classes</a></li>
+					<li><a href="#">Waste into Money</a></li>
+					<li><a href="#">Vidiyal</a></li>
+					<li><a href="#">Thulir</a></li>
+					<li><a href="#">Leo Utsav</a></li>
+					<li><a href="#">Blood Donation</a></li>
+				</ul>
+			</li>
+			<li><a href="#"><span class="glyphicon glyphicon-user"> Our Team</a></li> 
+			<li><a href="#"><span class="glyphicon glyphicon-picture"> Gallery</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-send"> Contact</a></li>
+		</ul>
+		</div>
+		</div>
+	</nav>
+	<div class="container" id="inner">
+	<div class="row">
+		<!--div class="col-md-1 pull-left" id="ceg">
+			<img src="ceg.png" height="100" width="100">
+		</div-->
+		<div class="col-md-12 center">
+			<h1 class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upsc Classes</h1>
+		</div>
+		<!--div class="col-md-1 " id="cs" >
+			<img src="leo.png" height="100" width="100">
+		</div-->
+	</div>
+	<hr>
+			
+		<div class="row">
+                  <div class="col-md-12">
+                                    <!-- Nav tabs --><div class="card">
+                                    <ul class="nav nav-pills" role="tablist" id="myTab">
+                                        <li role="presentation" class="active"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+                                        <li role="presentation"><a href="#FAQ" aria-controls="FAQ" role="tab" data-toggle="tab">FAQ</a></li>
+                                        <li role="presentation"><a href="#ds" aria-controls="ds" role="tab" data-toggle="tab">Contact</a></li>                                    
+									</ul>
+									
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active fade in" id="about" >
+											<h3 class="text-center" style="font-size:19px;line-height:1.7em;">"How many of you have had the dream of becoming a part of the elite responsibilities of the country? 
+											<br>Confused on where and how to start? <br>Fret not, we guide you!!"</h3>
+											<p class="text-justify" style="line-height:1.7em;font-size:17px">
+												The <strong>Leo Club of CEG</strong>, in collaboration with the <strong><em>Manidhaneyam IAS Academy</em></strong>, one of the most sought after coaching centre in Tamil Nadu, brings coaching classes right at our campus.
+												Be it aptitude, logical reasoning, economics, polity or whatsoever, these classes are sure to provide you the right frame in every respect. So, get geared up to stamp your first step towards Civil Services.
+											</p>
+										</div>
+                                        <div role="tabpanel" class="tab-pane fade" id="FAQ" style="font-size:19px;line-height:1.7em;">
+											<ul >
+												<li>
+													<h5><strong>Will I be able to attend these classes amidst college schedule?</strong></h5>
+													<h5><em>The classes will take place from 5 P. M. to 7 P. M., which would have no effect on the college timings.</em></h5>
+												</li>
+												<li>
+													<h5><strong>I am not a resident of the areas mentioned above. How do I contribute?</strong></h5>
+													<h5><em>We are planning to expand our radius to more areas. Further details will be made available soon.</em></h5>
+												</li>
+												<li>
+													<h5><strong>What will happen if I take leave?</strong></h5>
+													<h5><em>The UPSC Classes are entirely meant to benefit the attendees. Taking leave won’t be a problem as there is no attendance regulation..</em></h5>
+												</li>
+												<li>
+													<h5><strong>If I were to go home for weekend, how would I manage?</strong></h5>
+													<h5><em>Chill out! There would be no UPSC classes during weekends at CEG Campus.</em></h5>
+												</li>
+												<li>
+													<h5><strong>Should I be a member of the Leo Club of CEG to attend the UPSC Classes?</strong></h5>
+													<h5><em>Not necessary. However, being a part of the club provides you with more benefits other than attending UPSC classes.</em></h5>
+												</li>
+												<li>
+													<h5><strong>Is there any registration fee to attend the UPSC classes?</strong></h5>
+													<h5><em>No, it is absolutely free of cost.</em></h5>
+												</li>
+										</div>
+                                        <div role="tabpanel" class="tab-pane fade" id="ds">
+											<div class="row">
+											<div class="col-md-6">
+												<div class="panel panel-info">
+													<div class="panel-heading">Chairman</div>
+													<div class="panel-body" >
+														<h5 style="line-height:2em;">Prathab.K<br>BE CSE(3rd Yr)<br>csgiri95@gmail.com</h5>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="panel panel-info">
+													<div class="panel-heading">Co-Chairman</div>
+													<div class="panel-body" >
+														<h5 style="line-height:2em;">ShunmugaValli E.G<br>BE ECE(3rd Yr)<br>csgiri95@gmail.com</h5>
+													</div>
+												</div>
+											</div>
+											</div>
+										</div>
+                                    </div>
+                                </div>
+              </div>
+		</div>
+
+</div>
+
