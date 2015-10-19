@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LEO contact</title>
+    <title>LEO Contact</title>
 	<link rel="shortcut icon" href="leo.png">
-  
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="styles/main.css"/>
   <script src="../css/index.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/index.css">
@@ -44,6 +45,18 @@ html, body, .container-fluid, .row,.map { height: 100% }
     height: 100%;
  	height:calc(100% - 0px);
 }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+#rw
+{
+	background-color:#000000;
+}
 </style>
 <body>
 	<nav class="navbar navbar-inverse">
@@ -55,14 +68,14 @@ html, body, .container-fluid, .row,.map { height: 100% }
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-				<img src="leo.png" height="40" width="40" style="float:left;"/><a class="navbar-brand " href="../index.html">LEOClub of CEG</a>
+				<img src="leo.png" height="40" width="40" style="float:left;"/><a class="navbar-brand " href="../index.html">LEO Club of CEG</a>
 			</div>
 		<div>
 		<ul class="nav navbar-nav navbar-right collapse-navbar-collapse" id="mynav">
 			<li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 			<li ><a href="../aboutus.html"><span class="glyphicon glyphicon-eye-open"></span> About us</a></li>
 			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-tasks"> Events<span class="caret"></span></a>
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-tasks"><span style="font-family:'oswald' sans-serif;">Events</span><span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="../events/upsc.html">UPSC classes</a></li>
 					<li><a href="../events/wasteintomoney.html">Waste into Money</a></li>
@@ -72,9 +85,9 @@ html, body, .container-fluid, .row,.map { height: 100% }
 					<li><a href="../events/blooddonation.html">Blood Donation</a></li>
 				</ul>
 			</li>
-			<li><a href="../ourteam.html"><span class="glyphicon glyphicon-user"> Our Team</a></li> 
+			<li><a href="../ourteam.html"><span class="glyphicon glyphicon-user"><span style="font-family:'oswald' sans-serif;">LEOs</span></a></li> 
 			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"> Gallery<span class="caret"></span></a>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture"><span style="font-family:'oswald' sans-serif;">Gallery</span><span class="caret"></span></a>
 				<ul class="dropdown-menu">
 				
 					<li class="dropdown-submenu">
@@ -89,7 +102,7 @@ html, body, .container-fluid, .row,.map { height: 100% }
 					<a class="test" tabindex="-1" href="#">2014-2015<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a tabindex="-1" href="../gallery/2014-2015/installation/index.html">Installation</a></li>
-						<li><a tabindex="-1" href="../gallery/2014-2015/othmer/index.html">Othmer</a></li>
+						<li><a tabindex="-1" href="../gallery/2014-2015/othmar/index.html">Othmar</a></li>
 						<li><a tabindex="-1" href="../gallery/2014-2015/terryfox/index.html">TerryFox</a></li>
 						<li><a tabindex="-1" href="../gallery/2014-2015/thulir/index.html">Thulir</a></li>
 						<li><a tabindex="-1" href="../gallery/2014-2015/utsav/index.html">Utsav</a></li>
@@ -98,7 +111,7 @@ html, body, .container-fluid, .row,.map { height: 100% }
 				</ul>
 			</li>
 			
-			<li class="active"><a href="#"><span class="glyphicon glyphicon-send"> Contacts</a></li>
+			<li class="active"><a href="#"><span class="glyphicon glyphicon-send"><span style="font-family:'oswald' sans-serif;">Contact</span></a></li>
 		</ul>
 		</div>
 		</div>
@@ -110,7 +123,7 @@ html, body, .container-fluid, .row,.map { height: 100% }
 		</div-->
 		<div class="col-md-1"></div>
 		<div class="col-md-8 ">
-			<h1 style="text-align:center;margin-left:13%">Contacts</h1>
+			<h1 style="text-align:center;margin-left:13%">Contact</h1>
 		</div>
 		<!--div class="col-md-1 " id="cs" >
 			<img src="leo.png" height="100" width="100">
@@ -121,22 +134,22 @@ html, body, .container-fluid, .row,.map { height: 100% }
 	<div class="row">
 		<div class="col-md-6">
 			<br>
-			<h3 style="letter-spacing:6px">LEOCLUB of CEG<h3>
-			<h5 class="text-muted" style="line-height:2.1em;">
+			<h3 style="letter-spacing:6px;font-family:'oswald' sans-serif;">LEO Club of CEG<h3>
+			<p style="line-height:2.1em;font-size:16px;font-family:'Roboto';font-weight:300">
 				Prayer hall,Near Knowledge Park,<br>
 				No.12,Sardar Patel Road,<br>
 				College of Engineering Guindy,Guindy,<br>
 				Anna University,Chennai-600028.
-			</h5>
-			<h3 style="font-size:15px">Phone<h3>
-			<h5 class="text-muted" style="line-height:2.1em;">
+			</p>
+			<h3 style="font-size:18px;font-family:'oswald' sans-serif;">Phone<h3>
+			<p style="line-height:2.1em;font-size:16px;font-family: 'Roboto';font-weight:300">
 				President LEO Vasanth S D (7598220948)<br>
-				Vice President LEO VijayaBharathi J (7598220948)
-			</h5>
-			<h3 style="font-size:15px">Email<h3>
-			<h5 class="text-muted" style="line-height:2.1em;">
-				leoclubofceg@gmail.com
-			</h5>
+				Vice President LEO VijayaBharathi J (9489578779)
+			</p>
+			<h3 style="font-size:18px;font-family:'oswald' sans-serif;">Email<h3>
+			<p style="line-height:2.1em;font-size:16px;font-family: 'Roboto';font-weight:300">
+				leoclub.ceg@gmail.com
+			</p>
 		</div>
 		<div class="col-md-6">
 			<div id="googleMap" style="width:500px;height:380px;"></div>
@@ -180,12 +193,17 @@ style="display:none;" onload="if(submitted)
 <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
 </tr></tbody></table></div></ol></form>
 </div>
-	<div class="col-md-6">
-		<h2>Follow Us</h2>
-		<div class="col-md-3"><a target="_blank" href="https://www.facebook.com/LeoCEG?fref=ts" title="fbpage"><img src="f.png" height="200px" width="200px"/><br>
-	</a></div>
-		<div class="col-md-3"><a href="" title="g+"><img src="g+.png" height="205px" width="200px" style="margin-left:60%"/></a></div>
-	</div>
 </div>
+<hr>
+<footer>
+	<div class="row">
+	<h3 class="text-primary">Follow us</h3>
+			<a href="https://www.facebook.com/LeoCEG?fref=ts"><img class="img-rounder" src="f.png" height="3%" width="3%"/></a>
+			<img src="t.png" height="3%" width="3%"/>
+			<a href="https://plus.google.com/100674374404469105746/posts"><img src="g.png" height="3%" width="3%" /></a>
+	</div>
+	</div>
+	<div class="text-left"><h5>&copy;&nbsp;2015&nbsp;LeoClub.All rights reserved.</h5></div>
+</footer>
 </body>
 </html>
