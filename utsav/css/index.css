@@ -9,7 +9,15 @@
     font-family: san;
     src: url(sansfont.ttf);
 }
-
+@media (max-width: 1000px)
+{
+  #ceg{
+    display: none;
+  }
+  .leo{
+    display: none;
+  }
+}
 @media (max-width: 600px)
 {
   #synclink{
