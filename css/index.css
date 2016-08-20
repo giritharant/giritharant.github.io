@@ -16,7 +16,9 @@
 		src:url('blackcaps.ttf');
 	}
 .navbar { font-family: 'Oswald', sans-serif; }
-
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Oswald', sans-serif;
+}
 .carousel
 	{
 		height:46%;
